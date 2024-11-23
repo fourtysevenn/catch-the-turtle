@@ -43,7 +43,7 @@ else:
 
 
 
-
+print("Oyun başlatılıyor..")
 def tıklama(x,y):
     global skor_puan
     if hedef.distance(x,y)<20:
