@@ -29,21 +29,10 @@ kalansure=30
 skor_puan= 0
 
 print("Oyunuma hoşgeldiniz..")
-print("Zorluk derecenizi seçtikten sonra oyuna başlayabilirsiniz..")
-print("1)Kolay,2)Orta,3)Zor")
-secim= int(input())
-if secim==1:
-    zorluk=1
-elif secim==2:
-    zorluk=0.65
-elif secim==3:
-    zorluk=0.45
-else:
-    print("Hatalı işlem,default ayarlar girildi..")
 
 
 
-print("Oyun başlatılıyor..")
+
 def tıklama(x,y):
     global skor_puan
     if hedef.distance(x,y)<20:
